@@ -9,11 +9,10 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>JavaScript</li>
         <li>Node.js</li>
         <li>Express</li>
         <li>MongoDB</li>
-        <li>JavaScript</li>
-        <li>NextJS</li>
       </ul>
     ),
   },
@@ -22,7 +21,6 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>Back-End Web Develop</li>
         <li>Thủy Lợi - University </li>
       </ul>
     ),
@@ -32,7 +30,9 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Information Technology Engineer-Certificate</li>
+        <li>Information Technology Engineer-Certificate </li>
+        <li>Point Scale : 2.45 / 4.0 </li>
+        <li>Degree classification : Average Good </li>
       </ul>
     ),
   },
@@ -55,12 +55,10 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I am a Back_End web developer with a passion for creating
-            interactive. I have know a little experience working with
-            JavaScript, React, Node.js, Express, MongoDB, HTML, CSS, and Git. I
-            am always looking to expand my knowledge and skill set. I am a team
-            player and I am excited to work with others to create amazing
-            applications.
+            I want to become Back End Web Developer with a passion for creating
+            interactive. Have know a little experience working with team, always
+            looking to expand my knowledge and skill set.I am excited to work
+            with others to create amazing applications.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
