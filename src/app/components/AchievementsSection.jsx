@@ -21,8 +21,8 @@ const achievementsList = [
     value: "10",
   },
   {
-    metric: "Awards",
-    value: "1",
+    metric: "Teammate",
+    value: "4",
   },
   {
     metric: "Years",

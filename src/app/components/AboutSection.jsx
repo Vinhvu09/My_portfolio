@@ -13,6 +13,9 @@ const TAB_DATA = [
         <li>Node.js</li>
         <li>Express</li>
         <li>MongoDB</li>
+        <li>Git</li>
+        <li>Basic - Restful Api</li>
+        <li>Basic - Typescript</li>
       </ul>
     ),
   },
@@ -33,6 +36,17 @@ const TAB_DATA = [
         <li>Information Technology Engineer-Certificate </li>
         <li>Point Scale : 2.45 / 4.0 </li>
         <li>Degree classification : Average Good </li>
+      </ul>
+    ),
+  },
+  {
+    title: "Advantage ",
+    id: "advantage",
+    content: (
+      <ul className="list-disc pl-2">
+        <li>Back-End Developer </li>
+        <li>Research Document</li>
+        <li>Ability To Analysis-Logic </li>
       </ul>
     ),
   },
@@ -81,6 +95,13 @@ const AboutSection = () => {
             >
               {" "}
               Certifications{" "}
+            </TabButton>
+            <TabButton
+              selectTab={() => handleTabChange("advantage")}
+              active={tab === "advantage"}
+            >
+              {" "}
+              Advantage{" "}
             </TabButton>
           </div>
           <div className="mt-8">
